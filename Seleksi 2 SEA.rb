@@ -1,8 +1,3 @@
-# Note :*kalo ada $map yg tumpang tindih
-# 		*kalo "done " != "done"
-
-
-
 
 def print_map(size)
 	for i in 0...size
