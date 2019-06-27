@@ -150,11 +150,11 @@ def print_history()
 					print "\t",$history_menu[i][j]
 					price = $store_price[$history_store[i]][j]*$history_menu[i][j]
 					total += price
-					print "\t",price,"\n"
+					print "\tRp",price,"\n"
 				end
 			end
 			total += $history_ongkir[i]
-			print "\tBiaya Antar \t:\t",$history_ongkir[i],"\n"
+			print "\tBiaya Antar \t:\tRp",$history_ongkir[i],"\n"
 			print "\tTotal \t\t:\tRp",total,"\n"
 			print "\tDriver oleh Driver ",$history_ojek[i],"\n"
 		end
